@@ -74,7 +74,7 @@ double ProcessResults()
   g->GetYaxis()->SetTitle("#chi^{2}");
   g->SetTitle("L Curve");
 
-  NumericalMinimization("Minuit2","SteepestDescent", minX);
+  NumericalMinimization("Minuit2","", minX);
 
 
   return minX;
